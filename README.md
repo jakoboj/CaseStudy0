@@ -61,3 +61,7 @@ I decided to host the web apps by pulling the web app template.
   </li>
 </ul>
 
+<h2>ARM Template</h2>
+In the template folder
+
+
