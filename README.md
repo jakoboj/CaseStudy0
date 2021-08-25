@@ -13,6 +13,7 @@ Mark is assigned the Reader role to the resource group. <br />
 Resource group:
 ![RG](https://github.com/jakoboj/CaseStudy0/blob/main/Screenshots/RG.PNG)
 
+<br />
 <h2>Website hosting</h2>
 I decided to host the web apps by pulling the CoffeeTemplate from github.
 <h3>What I did</h3>
