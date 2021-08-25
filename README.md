@@ -3,7 +3,7 @@
 ![Diagram](https://github.com/jakoboj/CaseStudy0/blob/main/Screenshots/Diagram.PNG)
 
 <h2>Create Users</h2>
-Bob is assigned the Owner role of the ContosoCoffee resource group, and assigned Global Administrator to the Subscription. <br />
+Bob is assigned the Owner role of the ContosoCoffee resource group, and assigned Global Administrator. <br />
 Dave is assigned the Contributor role to the resource group. <br />
 Mark is assigned the Reader role to the resource group. <br />
 
