@@ -1,5 +1,7 @@
 # CaseStudy0
 
+!Diagram(https://github.com/jakoboj/CaseStudy0/blob/main/Screenshots/Diagram.PNG)
+
 <h2>Create Users</h2>
 Bob is assigned the Owner role of the ContosoCoffee resource group, and assigned Global Administrator to the Subscription. <br />
 Dave is assigned the Contributor role to the resource group. <br />
