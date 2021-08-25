@@ -6,11 +6,13 @@
 Bob is assigned the Owner role of the ContosoCoffee resource group, and assigned Global Administrator to the Subscription. <br />
 Dave is assigned the Contributor role to the resource group. <br />
 Mark is assigned the Reader role to the resource group. <br />
+
 ![Users](https://github.com/jakoboj/CaseStudy0/blob/main/Screenshots/Users.PNG) 
 
 <br />
 
 <h3>Resource group:</h3>
+
 ![RG](https://github.com/jakoboj/CaseStudy0/blob/main/Screenshots/RG.PNG)
 
 <br />
