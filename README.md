@@ -10,7 +10,7 @@ Mark is assigned the Reader role to the resource group. <br />
 
 <br />
 
-Resource group:
+<h3>Resource group:</h3>
 ![RG](https://github.com/jakoboj/CaseStudy0/blob/main/Screenshots/RG.PNG)
 
 <br />
