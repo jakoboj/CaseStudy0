@@ -7,7 +7,7 @@ Mark is assigned the Reader role to the resource group. <br />
 <br />
 
 <h2>Website hosting</h2>
-I decided to host the web apps by pulling the web app template.
+I decided to host the web apps by pulling the CoffeeTemplate from github.
 <h3>What I did</h3>
 <ul>
   <li>
@@ -33,6 +33,8 @@ I decided to host the web apps by pulling the web app template.
 <h2>Load Balancing and Geo-redundent access</h2>
 <b>Note!</b> <i>Traffic Manager did not work properly for me, even though I configured it correctly.</i>
 <br />
+To direct users to the closest server (or best performance), I've used a Traffic Manager Template
+<br />
 <h3>What I did</h3>
 <ul>
   <li>
@@ -49,9 +51,14 @@ I decided to host the web apps by pulling the web app template.
 <br />
     
 <h2>Contoso Coffee data storage</h2>
+To store data, I've created a blob storage account, with a blob storage container. To make sure the storage account automatically archive data to slower storage when required, I've added a Lifecycle management rule, which archives data if its not been modified in 90 days. I've also created a SAS key for a future image gallery.
+<br />
 <ul>
   <li>
     Storage accounts > +Create > Performance: Standard > Redundancy: GRS > Review+create > Create
+  </li>
+  <li>
+    Storage accounts > Lifecycle management > +Add a rule > If Baseblobs havent been modified in 90 days Then Move to archive storage
   </li>
   <li>
     Containers > +Container > Name: imagecontainer > Create
