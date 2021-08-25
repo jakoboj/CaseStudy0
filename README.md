@@ -6,7 +6,8 @@
 Bob is assigned the Owner role of the ContosoCoffee resource group, and assigned Global Administrator to the Subscription. <br />
 Dave is assigned the Contributor role to the resource group. <br />
 Mark is assigned the Reader role to the resource group. <br />
-![Users](https://github.com/jakoboj/CaseStudy0/blob/main/Screenshots/Users.PNG)
+![Users](https://github.com/jakoboj/CaseStudy0/blob/main/Screenshots/Users.PNG) 
+
 <br />
 
 Resource group:
@@ -34,8 +35,11 @@ I decided to host the web apps by pulling the CoffeeTemplate from github.
     contosocoffeeuk.azurewebsites.net & contosocoffeeus.azurewebsites.net is now up and running
   </li>
 </ul>
+
 ![UK](https://github.com/jakoboj/CaseStudy0/blob/main/Screenshots/CCUK.PNG)
+
 ![US](https://github.com/jakoboj/CaseStudy0/blob/main/Screenshots/CCUS.PNG)
+
 <br />
 
 <h2>Load Balancing and Geo-redundent access</h2>
@@ -56,7 +60,9 @@ To direct users to the closest server (or best performance), I've used a Traffic
     bobscoffee.trafficmanager.net shows 404 Website not found, even though it should be configured correctly
   </li>
 </ul>
+
 ![Traffic Manager](https://github.com/jakoboj/CaseStudy0/blob/main/Screenshots/TM.PNG)
+
 <br />
     
 <h2>Contoso Coffee data storage</h2>
@@ -76,7 +82,9 @@ To store data, I've created a blob storage account, with a blob storage containe
     imagecontainer > Shared access tokens > Give permissions > Set time > Generate SAS token and URL
   </li>
 </ul>
+
 ![SAS](https://github.com/jakoboj/CaseStudy0/blob/main/Screenshots/SAS.PNG)
+
 <br />
 
 <h2>ARM Template</h2>
