@@ -60,8 +60,9 @@ I decided to host the web apps by pulling the web app template.
     imagecontainer > Shared access tokens > Give permissions > Set time > Generate SAS token and URL
   </li>
 </ul>
+<br />
 
 <h2>ARM Template</h2>
-In the template folder
+In the arm-template file
 
 
