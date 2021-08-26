@@ -17,7 +17,7 @@ Mark is assigned the Reader role to the resource group. <br />
 
 <br />
 <h2>Website hosting</h2>
-I decided to host the web apps by pulling the CoffeeTemplate from github.
+I decided to host the web apps by pulling the CoffeeTemplate from github. One web app is running in UK South and one is running in East US.
 <h3>What I did</h3>
 <ul>
   <li>
